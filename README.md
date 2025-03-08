@@ -1,1 +1,3 @@
-# Welcome to my HUMIS homepage project 
+# Welcome to Gilana Tesfahun's HUMIS homepage project 
+
+In this project I learned how to use html and css to recreate a homepage for a website. In terms of html we learned how we can group our work for it to be easy to decipher, for example using the tag <nav to describe something that's in the navigation. We also learned how to add images and links ( <a> ) . What I found interesting was how we could wrap a tag into another tag to change the format, for example wrapping an <a tag into a <p tag so we're able to take up the full amount of space. When learning CSS we learned how to change type face, color and the overall appearance of the layout. For my future designs I will definitely be more cautious about the complexity of the design, but I also feel like I just have a more whole understandings of websites now.   

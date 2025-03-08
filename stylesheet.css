@@ -24,8 +24,9 @@ section.content {
 
     div.nav {
         text-align: right;
-        padding-right: 15px;
+        padding-right: 3px;
         font-size: 12px;
+
 
         a {
 
@@ -53,6 +54,7 @@ section.content {
                 font-size: 10px
             }
         }
+
     }
 }
 
@@ -60,9 +62,10 @@ div.brown-box {
     background-color: #bec4a1;
     border-radius: 15px;
     margin: 15px 10px 70px;
-    padding: 50px;
+    padding: 30px;
     min-height: 500px;
     position: relative;
+    font-size: 50px;
 
 
     nav.left-side {
@@ -77,7 +80,7 @@ div.brown-box {
             text-decoration: none;
             margin: 0 8px 0;
             padding: 11px 0 15px 20px;
-            font-size: 15x;
+            font-size: 15px;
             font-weight: normal;
 
             &:hover {
@@ -97,15 +100,18 @@ div.brown-box {
         }
 
         h2 {
-            color: black;
+            color: darkolivegreen;
             border-bottom: 2px dotted red;
-            text-transform: uppercase;
+
             font-weight: normal;
             font-size: 16px;
+            text-transform: uppercase;
         }
 
         p {
             font-size: 12px;
+
+
 
             span {
                 font-weight: bold;
@@ -120,6 +126,7 @@ div.brown-box {
             a {
                 color: red;
                 text-decoration: none;
+                text-transform: uppercase;
             }
 
             &:hover {
@@ -137,15 +144,42 @@ div.brown-box {
         position:absolute;
         bottom:0;
         left: 0;
+        right:20px;
         margin:0 0 70px 30px;
+
+
+
 
 
         img{
             display:block;
-            margin: 10px 0
+            margin: 10px 0;
+
+
+
+
+
         }
     }
 }
+
+
+nav.login{
+    display:flex;
+    flex-direction: column-reverse;
+    margin-top: 600px;
+
+
+
+
+
+}
+
+
+
+
+
+
 
 
 footer {
@@ -154,6 +188,11 @@ footer {
     font-size: 10px;
     text-align: center;
     Padding: 8px;
+    margin: 50px;
+
+
+
+
 
 
 }
